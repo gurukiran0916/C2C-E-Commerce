@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 102px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card:hover {
+  background-color:#d1ccbe;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color:#ffffff;
+  color:#000000;
+}
+
+.btn1{
+  background-color:#0c75cf; 
+    position: absolute; 
+    width: 100%; 
+    background-attachment: fixed;
+    top: 0px;
+    padding-left: 50px;
+    left:0px;
+}
+
+.btn {
+  background-color:#0c75cf;;
+  border: none;
+  color: #ffffff;
+  padding: 18px 16px;
+  font-size: 17px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <link rel="stylesheet" type="text/css" href="sells.css">
+  <div class="btn1"><button class="btn" onclick="window.location.href='home.php'"><i class="fa fa-home"></i> Home</button></div>
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>An About Us page helps your company make a good first impression, and is critical for building customer trust and loyalty. ... This is a quick summary of your company's history and purpose, and should provide a clear overview of the company's brand story.</p>
+  <p>Getting to know people is hard, but getting to know people online, is even harder. 
+
+Human beings are not one-dimensional. We all sound, look, behave, and even smell differently, but these traits (some, thankfully) can't be experienced from behind a cold, digital screen.
+
+No matter how advanced technology gets, there will always be a divide keeping us from truly knowing a person we've only spent time with online.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2>Manjunath.S</h2>
+        <p class="title">Developer</p>
+        
+        <p>manjunaths.17.becs@acharya.ac.in</p>
+        <p><button class="button" onclick="window.location.href='contactus.html'">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2>GuruKiran D.R</h2>
+        <p class="title">Developer</p>
+        
+        <p>gurukiran.17.becs@acharya.ac.in</p>
+        <p><button class="button"  onclick="window.location.href='contactus.html'">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+</html>

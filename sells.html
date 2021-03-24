@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell</title>
+	<link rel="stylesheet" type="text/css" href="sells.css">
+	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="home.php">
+	<div class="btn1"><button class="btn" onclick="window.location.href='home.php'"><i class="fa fa-home"></i> Home</button></div>
+
+	<form class="full" action="sells.php" method="POST" enctype="multipart/form-data">
+		<div class="form">
+			<h1 class="logoText">Post your Ad</h1>
+			<h2>Inculde Some details</h2>
+	    		<hr style="width:100%;margin-left:0"><br>
+    	
+	    	<div>
+	    			
+	    		<label for="cars">Choose Category:</label>
+
+				<select name="category" id="category" class="bar">
+					<optgroup label="group">
+					  <option value="mobiles">Mobiles</option>
+					  <option value="motors">Motors</option>
+					  <option value="electronics">Electronics</option>
+					  <option value="sports">Sports</option>
+					  <option value="fashion">Fashion</option>
+					  <option value="beauty">Health & beauty</option>
+					  <option value="appliances">Appliances</option>
+					</optgroup>  
+				</select>
+	    	</div><br>
+	         <div class="form-group">
+	            <label>Brands</label><br><input type="text" class="sell" name="brands">
+	        </div>
+	        <div class="form-group ">
+	            <label>Year</label><br><input type="text" class="sell" name="year">
+	            
+	        </div>
+	        <div class="form-group">
+	            <label>Ad-title</label><br><input type="text" class="sell" name="title">
+	        </div>
+
+	        <div class="form-group">
+	            <label>Description</label><br><textarea class="sells" rows="6" cols="21" name="description"></textarea> 
+	            
+	        </div>
+	        <br>
+	        <hr style="width:100%;margin-left:0"><br>
+	        <div class="form-group">
+	            <label><h3>Set Price</h3></label><input type="text" class="sell" name="price" >
+	        </div>
+
+	        <hr style="width:100%;margin-left:0"><br>
+
+	        <div>
+	        	<h3>Upload images upto 5</h3>
+	        	<form >
+				  <input type="file" class="image" name="i1">&nbsp;
+				  <input type="file" class="image" name="i2">&nbsp;
+				  <input type="file" class="image" name="i3">&nbsp;
+				  <input type="file" class="image" name="i4">&nbsp;
+				  <input type="file" class="image" name="i5">&nbsp;
+				</form>
+	        </div>
+
+	        <br>
+	        <hr style="width:100%;margin-left:0"><br>
+
+	        <div class="form-group">
+	            <label>Email</label><br><input type="text" class="sell" name="email">
+	        </div>
+	        <div class="form-group">
+	            <label>Your Name</label><br><input type="text" class="sell" name="name">
+	        </div>
+	        <div class="form-group ">
+	            <label>Phone No</label><br><input type="text" class="sell" name="phone" >
+	            
+	        </div>
+	        <div class="form-group">
+	            <label>Location</label><br><input type="text" class="sell" name="location">
+	        </div>
+
+	        <br>
+	        <hr style="width:100%;margin-left:0"><br>
+	        <button type="submit" class="btn2" name="post"><a>POST</a></button>
+        
+        </div>
+
+	</form>
+	
+</body>
+</html>
